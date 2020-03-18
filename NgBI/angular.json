@@ -6,7 +6,7 @@
     "NgBI": {
       "projectType": "application",
       "schematics": {},
-      "root": "",
+      "root": "src",
       "sourceRoot": "src",
       "prefix": "app",
       "architect": {
@@ -24,9 +24,15 @@
               "src/assets"
             ],
             "styles": [
+              "../node_modules/bootstrap/dist/css/bootstrap.min.css",
               "src/styles.css"
             ],
-            "scripts": []
+            "scripts": [
+              "../src/node_modules/jquery/dist/jquery.min.js",
+              "../src/node_modules/popper.js/dist/umd/popper.min.js",
+              "../src/node_modules/bootstrap/dist/bootstrap.min.js",
+              "../src/node_modules/chart.js/dist/Chart.min.js"
+            ]
           },
           "configurations": {
             "production": {
@@ -88,9 +94,12 @@
               "src/assets"
             ],
             "styles": [
+
               "src/styles.css"
             ],
-            "scripts": []
+            "scripts": [
+
+            ]
           }
         },
         "lint": {
