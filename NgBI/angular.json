@@ -94,12 +94,9 @@
               "src/assets"
             ],
             "styles": [
-
               "src/styles.css"
             ],
-            "scripts": [
-
-            ]
+            "scripts": []
           }
         },
         "lint": {
@@ -132,6 +129,6 @@
   },
   "defaultProject": "NgBI",
   "cli": {
-    "analytics": false
+    "analytics": "e72d9014-7d21-4e51-b400-898a8561dd36"
   }
 }
