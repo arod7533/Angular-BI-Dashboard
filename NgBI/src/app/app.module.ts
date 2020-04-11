@@ -14,6 +14,7 @@ import { SectionHealthComponent } from './sections/section-health/section-health
 import { BarChartComponent } from './charts/bar-chart/bar-chart.component';
 import { LineChartComponent } from './charts/line-chart/line-chart.component';
 import { DnutChartComponent } from './charts/dnut-chart/dnut-chart.component';
+import { ServerComponent } from './server/server.component';
 
 @NgModule({
   declarations: [
@@ -25,7 +26,8 @@ import { DnutChartComponent } from './charts/dnut-chart/dnut-chart.component';
     SectionHealthComponent,
     BarChartComponent,
     LineChartComponent,
-    DnutChartComponent
+    DnutChartComponent,
+    ServerComponent
   ],
   imports: [
     BrowserModule,
